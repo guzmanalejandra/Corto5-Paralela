@@ -9,8 +9,8 @@
 using namespace std;
 using namespace std::chrono;
 
-#define INFILE "numeros.csv"
-#define OUTFILE "ordenados.csv"
+#define INFILE "numerosSecuencial.csv"
+#define OUTFILE "ordenadosSecuencial.csv"
 
 // QuickSort function from qsort.c
 void par_qsort(int *data, int lo, int hi)
